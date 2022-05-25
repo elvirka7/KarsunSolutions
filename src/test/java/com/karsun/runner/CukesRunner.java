@@ -1,4 +1,4 @@
-package com.carsun.runner;
+package com.karsun.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber",
         },
         features = "src/test/resources/features",
-        glue = "com/carsun/step_definitions",
-        dryRun = false,
+        glue = "com/karsun/step_definitions",
+        dryRun = true,
         tags = "",
         publish = false
 
